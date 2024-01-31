@@ -85,7 +85,7 @@ export default function Create() {
         <div className="form-group">
           <label htmlFor="ongoing">Ongoing?</label>
           <input
-            type="text"
+            type="boolean"
             className="form-control"
             id="ongoing"
             value={form.ongoing}

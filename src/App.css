@@ -1,0 +1,11 @@
+.App {
+  background-color: #2e2f30;
+  min-height: 100vh;
+  font-size: 20px;
+  color: white;
+}
+.contact-title {
+  font-size: 2rem;
+  margin-top: 10px;
+  color: black;
+}

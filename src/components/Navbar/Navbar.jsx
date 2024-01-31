@@ -28,18 +28,18 @@ const Navbar = () => {
             <ul className="navbar-nav me-auto">
               <li className="nav-item"></li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="../components/books">
-                  New Book
+                <NavLink className="nav-link" to="/components/create">
+                  Create a New Book
                 </NavLink>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/pricing">
-                  Cool
+                  Cool, much wow
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/about">
-                  About
+                  About: nothing
                 </a>
               </li>
             </ul>

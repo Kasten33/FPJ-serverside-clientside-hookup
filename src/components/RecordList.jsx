@@ -66,7 +66,7 @@ export default function RecordList() {
       return (
         <Record
           record={record}
-          deleteRecord={() => deleteRecord(record._id)}
+          deleteRecord={() => deleteRecord({ record: record })}
           key={record._id}
         />
       );
@@ -76,7 +76,7 @@ export default function RecordList() {
   // This following section will display the table with the records of individuals.
   return (
     <div className="container">
-      <h3 className="contact-title">Contact List</h3>
+      <h3 className="contact-title">Book List</h3>
       <table className="table table-striped" style={{ marginTop: 20 }}>
         <thead>
           <tr>
@@ -87,7 +87,7 @@ export default function RecordList() {
             <th>Modify Book</th>
           </tr>
         </thead>
-        <tbody>{recordList()}</tbody>
+        <tbody>{loading ? <Loader /> : recordList()}</tbody>
       </table>
     </div>
   );
