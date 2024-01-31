@@ -1,5 +1,7 @@
 Project was built with React.js
--------------------------------
-Project needs my ServerSideFP repository running on a port to function correctly
--------------------------------
-Project has css already implemented at the time of submission 
+
+_____________________________________________________________
+
+
+This project creates, edits, and deletes book objects, its usefull for keeping track of the books I, or you, are currently reading.
+I will most likly add an end date column in the future.
